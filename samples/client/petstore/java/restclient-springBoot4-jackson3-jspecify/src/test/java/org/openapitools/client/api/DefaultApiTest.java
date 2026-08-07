@@ -13,7 +13,7 @@
 
 package org.openapitools.client.api;
 
-import java.io.File;
+
 import org.openapitools.client.model.Foo;
 import org.jspecify.annotations.Nullable;
 import java.time.OffsetDateTime;

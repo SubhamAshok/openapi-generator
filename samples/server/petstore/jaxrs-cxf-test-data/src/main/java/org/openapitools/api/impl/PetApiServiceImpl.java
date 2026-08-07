@@ -2,7 +2,7 @@ package org.openapitools.api.impl;
 
 import org.openapitools.api.*;
 import org.openapitools.model.Category;
-import java.io.File;
+
 import java.util.List;
 import java.util.Map;
 import org.openapitools.model.ModelApiResponse;
@@ -13,7 +13,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.List;
 import java.util.Map;
-import java.io.File;
+
 import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.openapitools.codegen.utils.JsonCache;

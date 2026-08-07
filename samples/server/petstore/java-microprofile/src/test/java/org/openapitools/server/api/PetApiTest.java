@@ -13,7 +13,7 @@
 
 package org.openapitools.server.api;
 
-import java.io.File;
+
 import org.openapitools.server.model.ModelApiResponse;
 import org.openapitools.server.model.Pet;
 import org.junit.jupiter.api.BeforeEach;

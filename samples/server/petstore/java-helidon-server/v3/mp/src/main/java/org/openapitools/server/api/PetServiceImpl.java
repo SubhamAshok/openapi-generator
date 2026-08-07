@@ -12,7 +12,7 @@
 
 package org.openapitools.server.api;
 
-import java.io.File;
+
 import java.util.List;
 import org.openapitools.server.model.ModelApiResponse;
 import org.openapitools.server.model.Pet;

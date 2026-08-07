@@ -18,7 +18,7 @@ import org.openapitools.client.ApiResponse;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.Pair;
 
-import java.io.File;
+
 import org.openapitools.client.model.Foo;
 import org.jspecify.annotations.Nullable;
 import java.time.OffsetDateTime;
@@ -36,7 +36,7 @@ import org.apache.http.client.entity.UrlEncodedFormEntity;
 import java.io.InputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.File;
+
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.http.HttpRequest;

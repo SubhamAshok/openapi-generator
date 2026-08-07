@@ -3,7 +3,7 @@ package org.openapitools.api;
 import java.math.BigDecimal;
 import org.openapitools.model.Client;
 import java.util.Date;
-import java.io.File;
+
 import org.openapitools.model.FileSchemaTestClass;
 import org.joda.time.LocalDate;
 import java.util.Map;

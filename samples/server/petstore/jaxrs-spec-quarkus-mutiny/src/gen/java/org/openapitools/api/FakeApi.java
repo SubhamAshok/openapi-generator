@@ -5,7 +5,7 @@ import org.openapitools.model.ChildWithNullable;
 import org.openapitools.model.Client;
 import org.openapitools.model.EnumClass;
 import org.openapitools.model.FakeBigDecimalMap200Response;
-import java.io.File;
+
 import org.openapitools.model.FileSchemaTestClass;
 import org.openapitools.model.HealthCheckResult;
 import java.time.LocalDate;

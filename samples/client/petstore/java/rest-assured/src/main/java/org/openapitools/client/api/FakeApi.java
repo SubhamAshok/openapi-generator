@@ -16,7 +16,7 @@ package org.openapitools.client.api;
 import com.google.gson.reflect.TypeToken;
 import java.math.BigDecimal;
 import org.openapitools.client.model.Client;
-import java.io.File;
+
 import org.openapitools.client.model.FileSchemaTestClass;
 import java.time.LocalDate;
 import java.time.OffsetDateTime;

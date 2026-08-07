@@ -1,6 +1,6 @@
 package org.openapitools.model;
 
-import java.io.File;
+
 
 import io.swagger.annotations.ApiModelProperty;
 import javax.xml.bind.annotation.XmlElement;

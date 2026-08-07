@@ -17,7 +17,7 @@ import org.openapitools.client.ApiException;
 import java.math.BigDecimal;
 import org.openapitools.client.model.Client;
 import org.openapitools.client.model.FakeRefParameterPetIdParameter;
-import java.io.File;
+
 import org.openapitools.client.model.FileSchemaTestClass;
 import org.openapitools.client.model.FreeFormObjectTestClass;
 import org.openapitools.client.model.HealthCheckResult;

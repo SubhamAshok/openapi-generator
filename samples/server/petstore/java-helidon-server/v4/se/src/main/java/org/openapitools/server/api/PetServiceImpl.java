@@ -1,7 +1,7 @@
 package org.openapitools.server.api;
 
 import java.util.stream.Collectors;
-import java.io.File;
+
 import io.helidon.http.HeaderNames;
 import io.helidon.http.Headers;
 import java.util.HexFormat;

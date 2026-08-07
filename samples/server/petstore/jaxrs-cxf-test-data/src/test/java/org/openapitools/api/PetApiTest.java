@@ -26,7 +26,7 @@
 package org.openapitools.api;
 
 import org.openapitools.model.Category;
-import java.io.File;
+
 import java.util.List;
 import java.util.Map;
 import org.openapitools.model.ModelApiResponse;
@@ -59,7 +59,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.web.server.LocalServerPort;
-import java.io.File;
+
 import java.util.Set;
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;

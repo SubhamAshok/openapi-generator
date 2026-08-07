@@ -7,7 +7,7 @@ import org.glassfish.jersey.media.multipart.FormDataBodyPart;
 import java.math.BigDecimal;
 import org.openapitools.model.Client;
 import java.util.Date;
-import java.io.File;
+
 import org.openapitools.model.FileSchemaTestClass;
 import java.util.Map;
 import org.openapitools.model.ModelApiResponse;

@@ -14,7 +14,7 @@
 package com.prokarma.pkmst.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.io.File;
+
 import com.prokarma.pkmst.model.ModelApiResponse;
 import com.prokarma.pkmst.model.Pet;
 import org.junit.Test;

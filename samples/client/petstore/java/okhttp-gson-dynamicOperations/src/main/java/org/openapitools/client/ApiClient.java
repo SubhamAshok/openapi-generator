@@ -31,7 +31,7 @@ import org.apache.oltu.oauth2.client.request.OAuthClientRequest.TokenRequestBuil
 import org.apache.oltu.oauth2.common.message.types.GrantType;
 
 import javax.net.ssl.*;
-import java.io.File;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;

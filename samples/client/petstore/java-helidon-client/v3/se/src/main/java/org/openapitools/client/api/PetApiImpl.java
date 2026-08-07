@@ -29,7 +29,7 @@ import io.helidon.webclient.WebClientResponse;
 
 import org.openapitools.client.ApiClient;
 
-import java.io.File;
+
 import java.util.List;
 import java.util.Map;
 import org.openapitools.client.model.ModelApiResponse;

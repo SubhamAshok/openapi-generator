@@ -2,7 +2,7 @@ package org.openapitools.server.api;
 
 import java.util.ArrayList;
 import java.util.stream.Collectors;
-import java.io.File;
+
 import java.util.HashMap;
 import io.helidon.http.HeaderNames;
 import io.helidon.http.Headers;

@@ -5,7 +5,7 @@
  */
 package com.prokarma.pkmst.controller;
 
-import java.io.File;
+
 import com.prokarma.pkmst.model.ModelApiResponse;
 import com.prokarma.pkmst.model.Pet;
 

@@ -4818,7 +4818,7 @@ public class DefaultCodegen implements CodegenConfig {
         // We need the token in op.imports so that DefaultGenerator.getAllImportsMappings() can
         // look it up in importMapping and emit the correct fully-qualified import statement.
         for (CodegenParameter p : allParams) {
-            if (p.dataType != null && importMapping.containsKey(p.dataType)
+            if (!p.isFile && p.dataType != null && importMapping.containsKey(p.dataType)
                     && !op.imports.contains(p.dataType)) {
                 op.imports.add(p.dataType);
             }

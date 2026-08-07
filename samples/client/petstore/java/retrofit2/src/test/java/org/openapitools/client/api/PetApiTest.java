@@ -1,7 +1,7 @@
 package org.openapitools.client.api;
 
 import org.openapitools.client.ApiClient;
-import java.io.File;
+
 import org.openapitools.client.model.ModelApiResponse;
 import org.openapitools.client.model.Pet;
 import java.util.Set;

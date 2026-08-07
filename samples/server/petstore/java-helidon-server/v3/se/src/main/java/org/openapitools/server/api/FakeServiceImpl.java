@@ -5,7 +5,7 @@ import org.openapitools.server.model.ChildWithNullable;
 import org.openapitools.server.model.Client;
 import org.openapitools.server.model.EnumClass;
 import org.openapitools.server.model.FakeBigDecimalMap200Response;
-import java.io.File;
+
 import org.openapitools.server.model.FileSchemaTestClass;
 import io.helidon.webserver.Handler;
 import org.openapitools.server.model.HealthCheckResult;

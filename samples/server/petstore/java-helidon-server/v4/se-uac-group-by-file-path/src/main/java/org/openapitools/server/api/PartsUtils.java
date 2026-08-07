@@ -1,7 +1,7 @@
 package org.openapitools.server.api;
 
 import java.io.IOException;
-import java.io.File;
+
 import java.io.InputStream;
 import java.io.UncheckedIOException;
 import java.nio.file.Files;

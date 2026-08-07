@@ -5,7 +5,7 @@ import io.swagger.inflector.models.ResponseContext;
 import javax.ws.rs.core.Response.Status;
 
 import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
-import java.io.File;
+
 import java.util.List;
 
 import org.openapitools.model.*;

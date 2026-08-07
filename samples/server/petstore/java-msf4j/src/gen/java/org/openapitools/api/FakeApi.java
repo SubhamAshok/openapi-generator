@@ -10,7 +10,7 @@ import io.swagger.jaxrs.*;
 import java.math.BigDecimal;
 import org.openapitools.model.Client;
 import java.util.Date;
-import java.io.File;
+
 import org.openapitools.model.FileSchemaTestClass;
 import java.util.List;
 import java.util.Map;

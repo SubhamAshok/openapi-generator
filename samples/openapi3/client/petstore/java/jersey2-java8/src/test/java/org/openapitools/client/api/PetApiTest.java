@@ -15,7 +15,7 @@ package org.openapitools.client.api;
 
 import org.openapitools.client.*;
 import org.openapitools.client.auth.*;
-import java.io.File;
+
 import org.openapitools.client.model.*;
 
 import org.junit.jupiter.api.Assertions;

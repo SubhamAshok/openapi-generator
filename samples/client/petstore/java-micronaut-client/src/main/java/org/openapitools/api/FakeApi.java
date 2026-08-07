@@ -18,7 +18,7 @@ import io.micronaut.http.client.annotation.Client;
 import io.micronaut.core.convert.format.Format;
 import reactor.core.publisher.Mono;
 import java.math.BigDecimal;
-import java.io.File;
+
 import org.openapitools.model.FileSchemaTestClass;
 import java.time.LocalDate;
 import org.openapitools.model.ModelClient;

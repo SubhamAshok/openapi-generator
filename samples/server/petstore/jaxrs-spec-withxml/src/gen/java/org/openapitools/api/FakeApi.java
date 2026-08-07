@@ -7,7 +7,7 @@ import java.util.Date;
 import org.openapitools.model.EnumClass;
 import org.openapitools.model.FakeBigDecimalMap200Response;
 import org.openapitools.model.FakeTestsDefaultsDefaultResponse;
-import java.io.File;
+
 import org.openapitools.model.FileSchemaTestClass;
 import org.openapitools.model.HealthCheckResult;
 import org.joda.time.LocalDate;

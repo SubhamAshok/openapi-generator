@@ -5,7 +5,7 @@ import org.openapitools.codegen.model.*;
 import io.swagger.models.properties.*;
 
 import java.util.*;
-import java.io.File;
+
 
 public class MyclientcodegenGenerator extends DefaultCodegen implements CodegenConfig {
 

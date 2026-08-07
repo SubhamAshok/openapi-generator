@@ -15,7 +15,7 @@ package org.openapitools.client.api;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.BufferedWriter;
-import java.io.File;
+
 import java.io.FileWriter;
 import java.lang.reflect.Type;
 import java.util.ArrayList;

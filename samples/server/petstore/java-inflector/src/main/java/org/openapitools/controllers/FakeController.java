@@ -5,7 +5,7 @@ import io.swagger.inflector.models.ResponseContext;
 import javax.ws.rs.core.Response.Status;
 
 import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
-import java.io.File;
+
 import java.util.List;
 
 import org.openapitools.model.*;
@@ -13,7 +13,7 @@ import org.openapitools.model.*;
 import java.math.BigDecimal;
 import org.openapitools.model.Client;
 import java.util.Date;
-import java.io.File;
+
 import org.openapitools.model.FileSchemaTestClass;
 import java.util.List;
 import java.util.Map;

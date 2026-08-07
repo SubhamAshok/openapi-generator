@@ -6,7 +6,7 @@ import org.openapitools.server.model.Client;
 import java.util.stream.Collectors;
 import org.openapitools.server.model.EnumClass;
 import org.openapitools.server.model.FakeBigDecimalMap200Response;
-import java.io.File;
+
 import org.openapitools.server.model.FileSchemaTestClass;
 import java.nio.file.Files;
 import org.openapitools.server.model.GenericTypes;

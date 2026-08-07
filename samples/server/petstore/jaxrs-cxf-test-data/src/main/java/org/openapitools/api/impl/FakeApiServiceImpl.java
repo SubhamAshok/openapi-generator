@@ -4,7 +4,7 @@ import org.openapitools.api.*;
 import java.math.BigDecimal;
 import org.openapitools.model.Client;
 import java.util.Date;
-import java.io.File;
+
 import org.openapitools.model.FileSchemaTestClass;
 import java.util.List;
 import org.joda.time.LocalDate;
@@ -18,7 +18,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.List;
 import java.util.Map;
-import java.io.File;
+
 import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.openapitools.codegen.utils.JsonCache;
