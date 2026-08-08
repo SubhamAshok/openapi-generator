@@ -5131,6 +5131,9 @@ public class SpringCodegenTest {
 
         assertFileContains(Paths.get(outputPath + "/src/main/java/org/openapitools/api/PetApi.java"),
                 "@Valid @RequestParam(value = \"additionalMetadata\", required = false) String additionalMetadata");
+        
+        assertFileNotContains(Paths.get(outputPath + "/src/main/java/org/openapitools/api/PetApi.java"),
+                "import org.springframework.core.io.Resource;");
     }
 
     @Test
