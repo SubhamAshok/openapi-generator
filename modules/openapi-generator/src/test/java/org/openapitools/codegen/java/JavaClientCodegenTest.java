@@ -3729,6 +3729,33 @@ public class JavaClientCodegenTest {
         );
     }
 
+    @Test
+    public void testRestClientJackson3RegistersDefaultsXml_issue_24587() {
+        final Path output = newTempFolder();
+        final CodegenConfigurator configurator = new CodegenConfigurator()
+                .setGeneratorName(JAVA_GENERATOR)
+                .setLibrary(JavaClientCodegen.RESTCLIENT)
+                .setAdditionalProperties(Map.of(
+                        CodegenConstants.API_PACKAGE, "xyz.abcdef.api",
+                        JavaClientCodegen.USE_JACKSON_3, true,
+                        JavaClientCodegen.USE_SPRING_BOOT4, true,
+                        JavaClientCodegen.WITH_XML, true,
+                        JavaClientCodegen.OPENAPI_NULLABLE, false
+                ))
+                .setInputSpec("src/test/resources/3_1/java/petstore.yaml")
+                .setOutputDir(output.toString().replace("\\", "/"));
+
+        List<File> files = new DefaultGenerator().opts(configurator.toClientOptInput()).generate();
+
+        validateJavaSourceFiles(files);
+        assertFileContains(
+                output.resolve("src/main/java/xyz/abcdef/ApiClient.java"),
+                "Consumer<HttpMessageConverters.ClientBuilder> messageConverters = builder -> {",
+                "builder.registerDefaults().withJsonConverter(new JacksonJsonHttpMessageConverter(mapper));",
+                "builder.withXmlConverter(new JacksonXmlHttpMessageConverter(xmlMapper));"
+        );
+    }
+
 
     @Test
     public void testRestClientWithUseSingleRequestParameter_issue_19406() {
